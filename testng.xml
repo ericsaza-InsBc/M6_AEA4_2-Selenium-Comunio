@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Tools QA TestSuite">
+    <test verbose="0" preserve-order="true" name="Home">
+        <!-- Se ejecutaran los tests de las clases que estén a continuación -->
+        <classes>
+            <class name="Home"/>
+        </classes>
+    </test>
+</suite>
